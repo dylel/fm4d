@@ -1,5 +1,5 @@
 <script lang="ts">
 </script>
 
-<h1>Web Running</h1>
+<h1>Web Running maybe</h1>
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
