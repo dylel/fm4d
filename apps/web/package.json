@@ -15,9 +15,7 @@
 		"test:integration": "playwright test",
 		"test:unit": "vitest"
 	},
-	"dependencies": {
-		"@repo/ui": "workspace:*"
-	},
+	"dependencies": {},
 	"devDependencies": {
 		"@repo/eslint-config": "workspace:*",
 		"@repo/typescript-config": "workspace:*",
