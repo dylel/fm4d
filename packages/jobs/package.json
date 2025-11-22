@@ -1,0 +1,28 @@
+{
+  "name": "@repo/jobs",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "dotenv -e ../../.env -- trigger dev",
+    "trigger:deploy": "dotenv -e ../../.env -- trigger deploy",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@mapbox/node-pre-gyp": "^2.0.0",
+    "@trigger.dev/sdk": "4.1.1",
+    "gdal-async": "^3.11.5",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@trigger.dev/build": "4.1.1",
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "latest",
+    "aws-sdk": "^2.1692.0",
+    "mock-aws-s3": "^4.0.2",
+    "nock": "^14.0.10",
+    "trigger.dev": "^4.1.1",
+    "typescript": "latest"
+  }
+}
